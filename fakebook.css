@@ -1,0 +1,249 @@
+body {
+    font-family: sans-serif;
+}
+
+/*----------- header ----------------*/
+.content-header {
+    background-color: rgb(16, 92, 180);
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content-header h1 {
+    color: white;
+    float: left;
+    font-size: 35px;
+}
+
+.content-header form {
+    float: right;
+    margin-top: 15px;
+}
+
+.content-header label,
+.content-header input {
+    display: block;
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.content-header input {
+    color: black;
+    display: block;
+    margin-top: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.content-header .form {
+    float: left;
+}
+
+.content-header a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(173, 170, 170);
+}
+
+.content-header input[type="checkbox"] {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.content-header #a1 {
+    margin-left: -5px;
+}
+
+.content-header #a2 {
+    margin-left: 5px;
+}
+
+.content-header input[type="submit"] {
+    background-color: rgba(9, 129, 209, 0.925);
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+
+
+
+/* ------------------konten----------------*/
+
+.content-middle {
+    background-color: #edf0f5;
+
+}
+
+.content-middle .konten-kiri {
+    float: left;
+    width: 60%;
+}
+
+.content-middle .konten-kanan {
+    width: 40%;
+    float: right;
+}
+
+.content-middle h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.content-middle ul li {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.content-middle ul li span {
+    font-weight: normal;
+    margin-left: 10px;
+    color: gray;
+}
+
+.konten-kanan h3 {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.konten-kanan p:nth-child(2) {
+    margin-top: -25px;
+    margin-bottom: 35px;
+    color: gray;
+}
+
+.konten-kanan input {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.konten-kanan input.inline {
+    width: 40%;
+}
+
+.konten-kanan input.inline-last {
+    margin-left: 6px;
+}
+
+.konten-kanan #birth {
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.konten-kanan select {
+    margin-top: 9px;
+    padding: 5px;
+}
+
+.konten-kanan #birth-info {
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.konten-kanan #birth-info:hover {
+    text-decoration: underline;
+}
+
+.konten-kanan input[type=radio] {
+    width: 20px;
+    margin-top: 20px;
+}
+
+.konten-kanan #setuju {
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.konten-kanan #setuju a {
+    text-decoration: none;
+}
+
+.konten-kanan #setuju a:hover {
+    text-decoration: underline;
+}
+
+.konten-kanan input[type=submit] {
+    width: 200px;
+    background-color: rgb(69, 211, 34);
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.konten-kanan form {
+    border-bottom: 1px solid black;
+}
+
+.konten-kanan p:last-child {
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 15px;
+
+}
+
+.konten-kanan p:last-child a {
+    text-decoration: none;
+}
+
+.konten-kanan p:last-child a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*----------- footer ----------------*/
+.content-footer {
+    margin-bottom: 20px;
+
+}
+
+.content-footer ul li {
+    display: inline-block;
+    margin-left: 5px;
+
+
+}
+
+.content-footer ul li a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.content-footer ul:first-child {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.content-footer ul:nth-child(2) {
+    padding: 1px 0;
+}
+
+.content-footer p {
+    color: gray;
+    font-size: 15px;
+}
+
+
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
